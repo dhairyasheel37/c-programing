@@ -14,9 +14,9 @@ main()
 		case 'A':
 		case 'E':
 		case 'I':
-	    case 'O':
-	    case 'U':printf("This is vowel");
-	    break;
-	    default:printf("This is consnant");
+	        case 'O':
+	        case 'U':printf("This is vowel");
+	        break;
+	        default:printf("This is consnant");
 	}
 }
