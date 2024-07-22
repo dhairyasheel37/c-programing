@@ -3,6 +3,7 @@ int main()
 {
     int i;
     char s[10];
+    printf("Enter the string :");
     gets(s);
 
     for(i=0;s[i]!='\0';i++)
