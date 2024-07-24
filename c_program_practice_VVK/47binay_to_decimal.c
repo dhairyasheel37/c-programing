@@ -33,9 +33,10 @@ int main()
             no=no/2;
             a[i]=r;
         }
+        printf("binary no :");
         for(int j=i-1;j >=0;j--)
         {
-            printf("binary no :%d",a[j]);
+            printf("%d",a[j]);
         }
 
     }
