@@ -1,13 +1,11 @@
 #include<stdio.h>
 void main()
 {
-	int i,r,num,temp,sum,n1,n2;
-	printf("Enter the two internal :");
-	scanf("%d%d",&n1,&n2);
-	for (i=n1;i<=n2;i++)
-	{
-		num =i;
-		temp =i;
+	int i,r,num,temp,sum=0;
+	printf("Enter the number :");
+	scanf("%d",&num);
+
+		temp =num;
 		sum =0;
 		while (num>0)
 		{
@@ -18,6 +16,7 @@ void main()
 		if (sum == temp)
 		{
 			printf("Armstrong number:%d\n",sum);
-		}
-	}
+	    }
+
+
 }
