@@ -15,8 +15,10 @@ void main()
 		}
 		if (sum == temp)
 		{
-			printf("Armstrong number:%d\n",sum);
-	    }
-
-
+			printf("%d Armstrong number.\n",sum);
+	        }
+	        else
+                {
+                       printf("%d not Armstrong number.\n",sum);
+                }
 }
