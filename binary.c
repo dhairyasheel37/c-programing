@@ -1,6 +1,6 @@
 #include<stdio.h>
-int binary(int a[],int,int);
-int selection(int a[],int);
+int binary(int *a,int,int);
+int selection(int *a,int);
 int main(){
     int n,I,key,r;
     printf("Enter size of an array : ");
@@ -48,7 +48,7 @@ int main(){
     printf("The index of key element (%d) is : %d ",key,r);
     }
 }
-int binary(int a[],int n,int key){
+int binary(int *a,int n,int key){
     int first,last,mid;
     first = 0;
     last = n-1;
@@ -73,7 +73,7 @@ int binary(int a[],int n,int key){
     }
 }            
 
-int selection(int a[],int n){
+int selection(int *a,int n){
     
     
     return a;
