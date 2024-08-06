@@ -1,5 +1,5 @@
 #include<stdio.h>
-int selection(int a[],n);
+int selection(int *a,n);
 int main(){
     int n,I;
     printf("Enter size of an array : ");
